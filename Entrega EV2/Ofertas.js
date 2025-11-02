@@ -32,7 +32,7 @@ const productosEnOferta = [
     precioOriginal: 11990,
     precioOferta: 7793,
     descuento: 35,
-    imagen: 'IT.jpg',
+    imagen: 'it.jpg',
     stock: true,
     etiqueta: 'OFERTA'  // ← AGREGADO
   }
