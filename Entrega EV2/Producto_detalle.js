@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       autor: 'Stephen King',
       precio: '$7.793',
       descripcion: 'En “It”, un grupo de amigos de la infancia se enfrenta a un mal ancestral que acecha el pueblo de Derry cada 27 años, manifestándose muchas veces como el payaso Pennywise. La novela alterna pasado y presente, profundizando en los miedos personales y colectivos, la fuerza de la amistad y el trauma.',
-      img_delantera: 'IT.jpg',
+      img_delantera: 'it.jpg',
       img_trasera: 'IT_back.jpg'
     },
     {
