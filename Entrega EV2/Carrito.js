@@ -36,7 +36,7 @@ const productos = [
     autor: 'Stephen King',
     precio: 7793,
     categoria: "Terror",
-    img_delantera: 'IT.jpg',
+    img_delantera: 'it.jpg',
   },
   {
     id: 'neuromante',
