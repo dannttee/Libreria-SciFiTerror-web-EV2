@@ -342,8 +342,7 @@ document.getElementById('carritoForm').addEventListener('submit', e => {
   let cantidad = parseInt(e.target.cantidad.value);
   if(!cantidad || cantidad < 1) cantidad = 1;
   agregarAlCarrito(producto, cantidad);
-  alert(`¡Añadido ${cantidad} unidad(es) de ${producto.nombre} al carrito!`);
-  e.target.reset(); 
+  alert(`Añadido ${cantidad} unidad(es) de ${producto.nombre} al carrito.`);
 });
 
 
