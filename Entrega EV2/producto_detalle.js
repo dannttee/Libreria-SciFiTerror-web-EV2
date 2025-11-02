@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const productos = [
     {
-      id: 'dune',
+      id: 'dune.id',
       nombre: 'Dune',
       autor: 'Frank Herbert',
       precio: '$9.092',
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'DUNE_back.jpg'
     },
     {
-      id: 'frankenstein',
+      id: 'frankenstein.id',
       nombre: 'Frankenstein',
       autor: 'Mary Shelley',
       precio: '$10.500',
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'FRANKENSTEIN_back.jpg'
     },
     {
-      id: 'it',
+      id: 'it.id',
       nombre: 'It',
       autor: 'Stephen King',
       precio: '$7.793',
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'IT_back.jpg'
     },
     {
-      id: 'neuromante',
+      id: 'neuromante.id',
       nombre: 'Neuromante nº 01',
       autor: 'William Gibson',
       precio: '$13.990',
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'NEUROMANTE_back.jpg'
     },
     {
-      id: 'problema-tres-cuerpos',
+      id: 'problema-tres-cuerpos.id',
       nombre: 'El problema de los tres cuerpos',
       autor: 'Cixin Liu',
       precio: '$14.990',
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'El problema de los tres cuerpos_back.jpg'
     },
     {
-      id: 'llamada-cthulhu',
+      id: 'llamada-cthulhu.id',
       nombre: 'La llamada de Cthulhu',
       autor: 'H.P. Lovecraft',
       precio: '$9.990',
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'La llamada de Cthulhu_back.jpg'
     },
     {
-      id: '1984',
+      id: '1984.id',
       nombre: '1984',
       autor: 'George Orwell',
       precio: '$7.692',
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: '1984_back.jpg'
     },
     {
-      id: 'cronicas-marcianas',
+      id: 'cronicas-marcianas.id',
       nombre: 'Crónicas Marcianas',
       autor: 'Ray Bradbury',
       precio: '$12.500',
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'Crónicas Marcianas_back.jpg'
     },
     {
-      id: 'exorcista',
+      id: 'exorcista.id',
       nombre: 'El Exorcista',
       autor: 'William Peter Blatty',
       precio: '$11.500',
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'El Exorcista_back.jpg'
     },
     {
-      id: 'noche-muertos-vivientes',
+      id: 'noche-muertos-vivientes.id',
       nombre: 'La noche de los muertos vivientes',
       autor: 'John Russo',
       precio: '$9.990',
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'La noche de los muertos vivientes_back.jpg'
     },
     {
-      id: 'sombra-noche',
+      id: 'sombra-noche.id',
       nombre: 'La Sombra de la Noche / Shadow of Night',
       autor: 'Deborah Harkness',
       precio: '$13.500',
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'La Sombra de la Noche_back.jpg'
     },
     {
-      id: 'fahrenheit-451',
+      id: 'fahrenheit-451.id',
       nombre: 'Fahrenheit 451',
       autor: 'Ray Bradbury',
       precio: '$10.990',
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'Fahrenheit451_back.jpg'
     },
     {
-      id: 'soy-leyenda',
+      id: 'soy-leyenda.id',
       nombre: 'Soy Leyenda',
       autor: 'Richard Matheson',
       precio: '$11.800',
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'SoyLeyenda_back.jpg'
     },
     {
-      id: 'cementerio-animales',
+      id: 'cementerio-animales.id',
       nombre: 'Cementerio de animales',
       autor: 'Stephen King',
       precio: '$12.000',
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'CementerioAnimales_back.jpg'
     },
     {
-      id: 'resplandor',
+      id: 'resplandor.id',
       nombre: 'El resplandor',
       autor: 'Stephen King',
       precio: '$10.900',
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'ElResplandor_back.jpg'
     },
     {
-      id: 'androide-ovejas-electricas',
+      id: 'androide-ovejas-electricas.id',
       nombre: '¿Sueñan los androides con ovejas eléctricas?',
       autor: 'Philip K. Dick',
       precio: '$13.200',
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: '¿Sueñan los androides con ovejas eléctricas_back.jpg'
     },
     {
-      id: 'la-carretera',
+      id: 'la-carretera.id',
       nombre: 'La Carretera',
       autor: 'Cormac McCarthy',
       precio: '$10.600',
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'LaCarretera_back.jpg'
     },
     {
-      id: 'metro-2033',
+      id: 'metro-2033.id',
       nombre: 'Metro 2033',
       autor: 'Dmitry Glukhovsky',
       precio: '$12.800',
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'Metro2033_back.jpg'
     },
     {
-      id: 'hombre-ilustrado',
+      id: 'hombre-ilustrado.id',
       nombre: 'El hombre ilustrado',
       autor: 'Ray Bradbury',
       precio: '$13.700',
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
       img_trasera: 'ElHombreIlustrado_back.jpg'
     },
     {
-      id: 'hyperion',
+      id: 'hyperion.id',
       nombre: 'Hyperion',
       autor: 'Dan Simmons',
       precio: '$14.300',
@@ -321,7 +321,7 @@ function actualizarContador() {
 
 function agregarAlCarrito(prod, cantidad) {
   let cart = obtenerCarrito();
-  const index = cart.findindex(item => item.id === prod.id);
+  const index = cart.findIndex(item => item.id === prod.id);
   if(index >= 0) {
     cart[index].cantidad += cantidad;
   } else {
@@ -342,8 +342,10 @@ document.getElementById('carritoForm').addEventListener('submit', e => {
   let cantidad = parseInt(e.target.cantidad.value);
   if(!cantidad || cantidad < 1) cantidad = 1;
   agregarAlCarrito(producto, cantidad);
-  alert(`Añadido ${cantidad} unidad(es) de ${producto.nombre} al carrito.`);
+  alert(`¡Añadido ${cantidad} unidad(es) de ${producto.nombre} al carrito!`);
+  e.target.reset(); 
 });
+
 
 actualizarContador();
 });
