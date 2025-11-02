@@ -10,7 +10,7 @@ function cargarDatosCompraError() {
     
     if (carrito.length === 0) {
         alert("No hay carrito registrado");
-        window.location.href = "Index.html";
+        window.location.href = "index.html";
         return;
     }
 

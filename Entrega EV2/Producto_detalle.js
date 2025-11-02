@@ -266,9 +266,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const rect = container.getBoundingClientRect();
     const clickPos = e.clientX - rect.left;
     if (clickPos < rect.width / 2) {
-      currentIndex = (currentIndex === 0) ? 1 : 0;
+      currentindex = (currentindex === 0) ? 1 : 0;
     } else {
-      currentIndex = (currentIndex === 1) ? 0 : 1;
+      currentindex = (currentindex === 1) ? 0 : 1;
     }
     updateMainImage();
   });
@@ -321,7 +321,7 @@ function actualizarContador() {
 
 function agregarAlCarrito(prod, cantidad) {
   let cart = obtenerCarrito();
-  const index = cart.findIndex(item => item.id === prod.id);
+  const index = cart.findindex(item => item.id === prod.id);
   if(index >= 0) {
     cart[index].cantidad += cantidad;
   } else {
