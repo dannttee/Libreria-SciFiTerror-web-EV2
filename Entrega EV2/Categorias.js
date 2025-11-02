@@ -85,7 +85,7 @@ const productosCategoria = {
             nombre: 'It',
             autor: 'Stephen King',
             precio: 7793,
-            imagen: 'IT.jpg'
+            imagen: 'it.jpg'
         },
         {
             id: 'llamada-cthulhu',
