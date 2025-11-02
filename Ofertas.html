@@ -64,31 +64,33 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h4>Sobre Nosotros</h4>
-        <p>Librería especializada en ciencia ficción y terror. Tus historias favoritas en un lugar.</p>
-      </div>
-      <div class="footer-section">
-        <h4>Enlaces Rápidos</h4>
-        <ul>
-          <li><a href="Index.html">Home</a></li>
-          <li><a href="Productos.html">Productos</a></li>
-          <li><a href="Contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <h4>Síguenos</h4>
-        <div class="social-links">
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-        </div>
+  <footer>
+    <div class="footer-column" role="contentinfo">
+      <strong>Librería SciFiTerror</strong>
+      <nav aria-label="Categorías de libros" class="categorias">
+        <a href="#" title="Novelas">Categoria Novelas</a> |
+        <a href="#" title="Ciencia Ficción">Categoria Ciencia Ficción</a> |
+        <a href="#" title="Terror">Categoria Terror</a>
+      </nav>
+      <div class="pagos" aria-label="Métodos de pago">
+        <img src="visa.png" alt="Visa" style="width:40px" />
+        <img src="mastercard.png" alt="Mastercard" style="width:40px" />
+        <img src="american express.png" alt="American Express" style="width:40px" />
       </div>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Librería SciFiTerror. Todos los derechos reservados.</p>
+    <div class="footer-column">
+      <p>¡Manténgase en contacto! Suscríbase a nuestro boletín informativo.</p>
+      <form id="form-newsletter" aria-label="Formulario de suscripción al boletín">
+        <input
+          type="email"
+          name="email"
+          placeholder="Correo electrónico"
+          required
+          aria-required="true"
+          aria-label="Correo electrónico para suscripción"
+        />
+        <button type="submit">Suscribirse</button>
+      </form>
     </div>
   </footer>
 
